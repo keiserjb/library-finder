@@ -1,17 +1,17 @@
 // Map Styles from Snazzy Maps
 const mapStyles = [
   {
-    "featureType": "administrative",
-    "elementType": "all",
+    "featureType": "all",
+    "elementType": "labels.text",
     "stylers": [
       {
-        "saturation": "-100"
+        "color": "#878787"
       }
     ]
   },
   {
-    "featureType": "administrative.province",
-    "elementType": "all",
+    "featureType": "all",
+    "elementType": "labels.text.stroke",
     "stylers": [
       {
         "visibility": "off"
@@ -23,37 +23,7 @@ const mapStyles = [
     "elementType": "all",
     "stylers": [
       {
-        "saturation": -100
-      },
-      {
-        "lightness": 65
-      },
-      {
-        "visibility": "on"
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "elementType": "all",
-    "stylers": [
-      {
-        "saturation": -100
-      },
-      {
-        "lightness": "50"
-      },
-      {
-        "visibility": "simplified"
-      }
-    ]
-  },
-  {
-    "featureType": "road",
-    "elementType": "all",
-    "stylers": [
-      {
-        "saturation": "-100"
+        "color": "#f9f5ed"
       }
     ]
   },
@@ -62,64 +32,25 @@ const mapStyles = [
     "elementType": "all",
     "stylers": [
       {
-        "visibility": "simplified"
+        "color": "#f5f5f5"
       }
     ]
   },
   {
-    "featureType": "road.arterial",
-    "elementType": "all",
+    "featureType": "road.highway",
+    "elementType": "geometry.stroke",
     "stylers": [
       {
-        "lightness": "30"
-      }
-    ]
-  },
-  {
-    "featureType": "road.local",
-    "elementType": "all",
-    "stylers": [
-      {
-        "lightness": "40"
-      }
-    ]
-  },
-  {
-    "featureType": "transit",
-    "elementType": "all",
-    "stylers": [
-      {
-        "saturation": -100
-      },
-      {
-        "visibility": "simplified"
+        "color": "#c9c9c9"
       }
     ]
   },
   {
     "featureType": "water",
-    "elementType": "geometry",
+    "elementType": "all",
     "stylers": [
       {
-        "hue": "#ffff00"
-      },
-      {
-        "lightness": -25
-      },
-      {
-        "saturation": -97
-      }
-    ]
-  },
-  {
-    "featureType": "water",
-    "elementType": "labels",
-    "stylers": [
-      {
-        "lightness": -25
-      },
-      {
-        "saturation": -100
+        "color": "#aee0f4"
       }
     ]
   }
