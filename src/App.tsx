@@ -91,7 +91,12 @@ const App: React.FC = () => {
                 <meta charSet="utf-8" />
                 <title>Library Finder</title>
         <link rel="canonical" href="https://keiserjb-library-finder.netlify.app/" />
-        <meta name="description" content="Find a library" />
+        <meta name="description" content="Find a Library" />
+        <meta property="og:title" content="Library Finder" />
+        <meta property="og:description" content="Find a Library" />
+        <meta name="twitter:creator" content="Justin Keiser" />
+        <meta name="twitter:title" content="Library Finder" />
+        <meta name="twitter:description" content="Find a Library" />
             </Helmet>
       <CurrentLocation moveTo={moveTo} />
       <GoogleMap
