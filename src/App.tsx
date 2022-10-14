@@ -25,6 +25,7 @@ export type MarkerType = {
   id: string;
   location: google.maps.LatLngLiteral;
   name: string;
+  address: string;
   phone_number: string;
   website: string;
 };
@@ -121,6 +122,7 @@ const App: React.FC = () => {
           <InfoWindow position={selectedMarker.location} onCloseClick={() => setSelectedMarker({} as MarkerType)}>
             <div>
               <h3><a href={`${selectedMarker.website}`} target='_blank'>{selectedMarker.name}</a></h3>
+              <p>{selectedMarker.address}</p>
               {isLoadingMarkerWeather ? (
                 <p>Loading Weather ...</p>
               ) : (
