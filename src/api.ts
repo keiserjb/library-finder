@@ -1,7 +1,7 @@
 // Types
 import { MarkerType, WeatherType } from './App';
 
-const PLACE_RADIUS = 10000; // 2500 meters
+const PLACE_RADIUS = 10000; // 10000 meters
 const TYPE = 'library';
 
 export const fetchNearbyPlaces = async (lat: number, lng: number): Promise<MarkerType[]> => {
