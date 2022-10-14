@@ -10,7 +10,7 @@ import { containerStyle, center, options } from './settings';
 // Components
 import CurrentLocation from './components/CurrentLocation';
 // Image
-import beerIcon from './images/map_library_icon.svg';
+import libraryIcon from './images/map_library_icon.svg';
 // Styles
 import { Wrapper, LoadingView } from './App.styles';
 
@@ -115,7 +115,7 @@ const App: React.FC = () => {
             position={marker.location}
             onClick={() => onMarkerClick(marker)}
             icon={{
-              url: beerIcon,
+              url: libraryIcon,
               origin: new window.google.maps.Point(0, 0),
               anchor: new window.google.maps.Point(15, 15),
               scaledSize: new window.google.maps.Size(35, 35)
