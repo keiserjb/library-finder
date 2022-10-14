@@ -90,7 +90,7 @@ const App: React.FC = () => {
       <Helmet>
                 <meta charSet="utf-8" />
                 <title>Library Finder</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link rel="canonical" href="https://keiserjb-library-finder.netlify.app/" />
         <meta name="description" content="Find a library" />
             </Helmet>
       <CurrentLocation moveTo={moveTo} />

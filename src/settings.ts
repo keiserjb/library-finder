@@ -18,6 +18,7 @@ export const center = {
   lng: -85.40
 }
 
+
 // Disable default UI
 export const options = {
   styles: mapStyles,
